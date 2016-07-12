@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{552BC1AB-E13F-4C4F-BB52-3BE19F82EA9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74FC33F0-8BC6-418B-803F-849FD92DF09F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AdventureWorksUI", "src\AdventureWorksUI\AdventureWorksUI.xproj", "{E8948AC8-77C0-4D55-A794-DC41A156D4DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8948AC8-77C0-4D55-A794-DC41A156D4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8948AC8-77C0-4D55-A794-DC41A156D4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8948AC8-77C0-4D55-A794-DC41A156D4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8948AC8-77C0-4D55-A794-DC41A156D4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8948AC8-77C0-4D55-A794-DC41A156D4DB} = {552BC1AB-E13F-4C4F-BB52-3BE19F82EA9E}
+	EndGlobalSection
+EndGlobal
